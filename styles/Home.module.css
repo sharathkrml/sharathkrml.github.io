@@ -2,5 +2,6 @@
   position: fixed;
 }
 .main {
+  position: relative;
   color: red;
 }
