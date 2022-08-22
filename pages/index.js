@@ -1,3 +1,4 @@
+import { Text3D } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import Head from "next/head"
 import Image from "next/image"
@@ -19,12 +20,19 @@ export default function Home() {
           style={{ height: "100vh!important", width: "100vw!important" }}
         >
           <Suspense fallback={null}>
-            <SkyBackground />
+            <Text3D font={"./opensans.json"} position={[-5, 0, 0]}>
+              @sharathkrml
+              <meshNormalMaterial />
+            </Text3D>
+            {/* <SkyBackground /> */}
           </Suspense>
         </Canvas>
       </div>
       <main className={styles.main}>
-        <h1>Hii</h1>
+        <h1>
+          Occaecat proident et esse sint nulla quis nisi magna laborum Lorem sit
+          duis.
+        </h1>
       </main>
     </div>
   )

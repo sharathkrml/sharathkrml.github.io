@@ -10,7 +10,7 @@ const SkyBackground = () => {
       <directionalLight position={[0, 0, 1]} args={[0xffeedd]} />
 
       <mesh castShadow>
-        <sphereBufferGeometry args={[1, 15, 15]} />
+        <sphereBufferGeometry args={[1, 100, 100]} />
         <meshStandardMaterial />
       </mesh>
     </>
