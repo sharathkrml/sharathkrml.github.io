@@ -30,8 +30,7 @@ export default function Home() {
       </div>
       <main className={styles.main}>
         <h1>
-          Occaecat proident et esse sint nulla quis nisi magna laborum Lorem sit
-          duis.
+          Sharath
         </h1>
       </main>
     </div>
