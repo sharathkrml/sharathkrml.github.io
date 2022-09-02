@@ -30,7 +30,7 @@ export default function Home() {
       </div>
       <main className={styles.main}>
         <h1>
-          Sharath
+          Sharath V
         </h1>
       </main>
     </div>
